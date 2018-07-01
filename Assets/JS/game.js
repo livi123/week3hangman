@@ -16,10 +16,9 @@
       this.rightGuesses = [],
       this.guessForm = $(".guessForm"),
       this.guessLetterInput = $(".guessLetter"),
-      this.setup();
+      this.setup()
     },
-
-
+      
     setup: function(){
       this.binding();
       this.showGuess(this.wrongGuesses);
