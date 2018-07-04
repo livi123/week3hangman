@@ -209,4 +209,8 @@
 
   Hangman.init(wordList);
   
-})(jQuery, window);
+}
+
+)
+
+(jQuery, window);
